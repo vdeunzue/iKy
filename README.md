@@ -1,2 +1,0 @@
-# iKy
-OSINT Project
