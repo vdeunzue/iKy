@@ -3,6 +3,9 @@
 	<img alt="follow on Twitter" src="https://img.shields.io/twitter/follow/kennbroorg.svg?label=follow%20%40kennbroorg&style=social">
     </a>
 </div>
+
+---
+
 <div align="center">
     <img alt="Redis" src="https://img.shields.io/badge/storage-redis-red.svg">
     <img alt="Python" src="https://img.shields.io/badge/python-2.7-informational.svg">
