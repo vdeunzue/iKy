@@ -36,7 +36,7 @@
 ---
 
 <div align="center" style="background: #111">
-    <img alt="Logo" src="https://kennbroorg.gitlab.io/ikyweb/assets/img/iKy-300x300.png">
+    <img alt="Logo" src="https://kennbroorg.gitlab.io/ikyweb/assets/img/iKy-300x300-grey.png">
 </div>
 
 ---
