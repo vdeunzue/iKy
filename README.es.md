@@ -1,26 +1,76 @@
+<div align="center">
+    <a href="https://twitter.com/intent/follow?screen_name=kennbroorg">
+	<img alt="follow on Twitter" src="https://img.shields.io/twitter/follow/kennbroorg.svg?label=follow%20%40kennbroorg&style=social">
+    </a>
+</div>
+<div align="center">
+    <img alt="Redis" src="https://img.shields.io/badge/storage-redis-red.svg">
+    <img alt="Python" src="https://img.shields.io/badge/python-2.7-informational.svg">
+    <img alt="Celery" src="https://img.shields.io/badge/multiprocessing-celery-green.svg">
+    <img alt="Flask" src="https://img.shields.io/badge/interface-flask-yellowgreen.svg">
+</div>
+<div align="center">
+    <img alt="Node" src="https://img.shields.io/badge/node-%3E%208.x-brightgreen.svg">
+    <img alt="Angular" src="https://img.shields.io/badge/web%20framwork-angular%207-red.svg">
+    <img alt="Boostrap" src="https://img.shields.io/badge/toolkit-boostrap-blueviolet.svg">
+    <img alt="UI Kit" src="https://img.shields.io/badge/UI%20Kit-Nebular-9cf.svg">
+</div>
+<div align="center">
+    <img alt="fullcontact" src="https://img.shields.io/badge/module-fullcontact-blue.svg">
+    <img alt="twitter" src="https://img.shields.io/badge/module-twitter-blue.svg">
+    <img alt="linkedin" src="https://img.shields.io/badge/module-linkedin-blue.svg">
+    <img alt="github" src="https://img.shields.io/badge/module-github-blue.svg">
+    <img alt="keybase" src="https://img.shields.io/badge/module-keybase-blue.svg">
+    <img alt="ghostproject" src="https://img.shields.io/badge/module-ghostproject-red.svg">
+    <img alt="haveibeenpwned" src="https://img.shields.io/badge/module-haveibeenpwned-blue.svg">
+</div>
+
+---
+
+<div align="center">
+    <a href="https://gitlab.com/kennbroorg/iky-docker/blob/master/README.md">
+	<img alt="README Espanol" src="https://img.shields.io/badge/README-English-orange.svg">
+    </a>
+</div>
+
+---
+
+<div align="center" style="background: #111">
+    <img alt="Logo" src="https://kennbroorg.gitlab.io/ikyweb/assets/img/iKy-300x300.png">
+</div>
+
+---
+
+
 # iKy
 
-## PROYECTO
-El proyecto original se encuentra en GitLab. Por razones de difusión creamos este repo.
-Visitar el Gitlab Page del [Proyecto](https://kennbroorg.gitlab.io/ikyweb/)
+## Descripción
+
+El proyecto iKy es una herramienta que colecta información a partir de una dirección de e-mail y muestra los resultados en una interface visual.
+
+Visite el Gitlab Page del [Projecto](https://kennbroorg.gitlab.io/ikyweb/)
+
+[![Video Demo](https://kennbroorg.gitlab.io/ikyweb/assets/img/iKy-01.png)](https://vimeo.com/326114716 "Video Demo - Click to Watch!") 
+
+[Video Demo](https://vimeo.com/326114716 "Video Demo - Click to Watch!")
+
+## Proyecto - Versión anterior
+
+Primero que nada queremos aclarar que hemos cambiado el Frontend de AngularJS a Angular 7. Por esta razón hemos dejado al proyecto con AngularJS como Frontend en la rama iKy-v1.
+
+El motivo del cambio de Frontend fue actualizar la tecnología y obtener una forma más fácil de instalación.
+
+## Instalación
+
+### Clonar el repositorio
 
 ```shell
 git clone https://gitlab.com/kennbroorg/iKy.git
 ```
 
-[![Video Demo](https://kennbroorg.gitlab.io/ikyweb/assets/img/i-1.png)](https://vimeo.com/272495754 "Video Demo - Click para ver!")
+### Instalar Backend
 
-[Video Demo](https://vimeo.com/272495754 "Video Demo - Click para ver!")
-
-También tenemos una máquina vagrant para simplificar la instalación
-
-```shell
-git clone https://gitlab.com/kennbroorg/iKy-vagrant.git
-```
-
-## INSTALAR BACKEND
-
-### Redis
+#### Redis
 Se debe instalar Redis
 ```shell
 wget http://download.redis.io/redis-stable.tar.gz
@@ -30,60 +80,60 @@ make
 sudo make install
 ```
 
-Y encender el server en una terminal aparte
+Y ejecutar el server en una terminal
 ```shell
 redis-server
 ```
 
-### Librerias de python y Celery
-Se debe instalar las librerias de requirements.txt
+#### Python y Celery
+Se debe instalar las librerías en requirements.txt
+
 ```shell
 pip install -r requirements.txt
 ```
 
-Y encender Celery en otra terminal aparte y parado en el directorio **backend**
+Y ejecutar celery en otra terminal, dentro del directorio **backend**
+
 ```shell
 ./celery.sh
 ```
 
-Finalmente, otra vez, en otra terminal encender la app de backend desde el directorio **backend** 
+Por último, otra vez, en otra terminal ejecutar app.py dentro del directorio **backend** 
+
 ```shell
 python app.py
 ```
 
-## INSTALAR FRONTEND
+### Instalar Frontend
 
-### Dependencias
-Primero que nada, instalar [nodejs](https://nodejs.org/es/) 8.
-**Asegurarse de instalar la version 8 LTS. Recientemente lanzaron �la version 10 LTS y debemos adaptar el proyecto**
+#### Node
+Primero que nada, instalar [nodejs](https://nodejs.org/es/).
 
-Ejemplo en Ubuntu 16.04
+#### Dependencias
+
+Dentro del directorio **frontend** instalar las dependencias
+
 ```shell
-sudo apt-get update
-sudo apt-get install -y curl python-software-properties
-sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
-node -v
-npm -v 
-```
-
-Y luego se debe instalar **bower**, **gulp** y las dependencias desde el directorio **frontend**
-```shell
-npm install bower
-npm install gulp
-cd frontend
 npm install
 ```
+#### Encender servidor
 
-Por último, para encender el frontend, se debe ejecutar 
+Finalmente, ejecutar dentro del directorio **frontend** el siguiente comando :
+
 ```shell
-gulp serve
+npm start
 ```
 
-# DISFRUTE
-Abrir el navegador y [DISFRUTAR](http://127.0.0.1:3000)
+### Browser
+Abrir el browser en esta [url](http://127.0.0.1:4200)
 
-## CONFIGURACION DE APIKEYS
-Por ahora lo ideal es cargar las apiKeys de [fullcontact](https://support.fullcontact.com/hc/en-us/articles/115003415888-Getting-Started-FullContact-v2-APIs) y [twitter](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html) a través del frontend desde la opción de **API Keys**
-Recientemente hemos fusionado la rama de linkedin. Se debe cargar usuario y password de linkedin para obtener datos.
-Es intuitivo.  
+### Config API Keys
+Una vez que la aplicación esté cargada en el browser, deberá ir a la opción Api Keys y llenar los valores de las APIs que se necesitan.
+
+- Fullcontact : Generar las APIs desde [aquí](https://support.fullcontact.com/hc/en-us/articles/115003415888-Getting-Started-FullContact-v2-APIs)
+- Twitter : Generar las APIs desde [aquí](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
+- Linkedin : Solo se debe cargar el usuario y contraseña de su cuenta 
+
+[readmees]: README.es.md
+[readmeen]: README.md
+
