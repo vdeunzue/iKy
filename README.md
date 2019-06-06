@@ -31,7 +31,7 @@
 ---
 
 <div align="center">
-    <a href="https://gitlab.com/kennbroorg/iky-docker/blob/master/README.es.md">
+    <a href="https://gitlab.com/kennbroorg/iKy/blob/iKy/README.es.md">
 	<img alt="README Espanol" src="https://img.shields.io/badge/README-Espa%C3%B1ol-orange.svg">
     </a>
 </div>
