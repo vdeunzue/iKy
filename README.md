@@ -8,7 +8,7 @@
 
 <div align="center">
     <img alt="Redis" src="https://img.shields.io/badge/storage-redis-red.svg">
-    <img alt="Python" src="https://img.shields.io/badge/python-2.7-informational.svg">
+    <img alt="Python" src="https://img.shields.io/badge/python-3.7-informational.svg">
     <img alt="Celery" src="https://img.shields.io/badge/multiprocessing-celery-green.svg">
     <img alt="Flask" src="https://img.shields.io/badge/interface-flask-yellowgreen.svg">
 </div>
@@ -26,6 +26,7 @@
     <img alt="keybase" src="https://img.shields.io/badge/module-keybase-blue.svg">
     <img alt="ghostproject" src="https://img.shields.io/badge/module-ghostproject-red.svg">
     <img alt="haveibeenpwned" src="https://img.shields.io/badge/module-haveibeenpwned-blue.svg">
+    <img alt="emailrep.io" src="https://img.shields.io/badge/module-emailrep.io-blue.svg">
 </div>
 
 ---
@@ -38,7 +39,7 @@
 
 ---
 
-<div align="center" style="background: #111">
+<div align="center">
     <img alt="Logo" src="https://kennbroorg.gitlab.io/ikyweb/assets/img/Logo-Circular.png">
 </div>
 
@@ -51,14 +52,9 @@ Project iKy is a tool that collects information from an email and shows results 
 
 Visit the Gitlab Page of the [Project](https://kennbroorg.gitlab.io/ikyweb/)
 
-[![Video Demo](https://kennbroorg.gitlab.io/ikyweb/assets/img/iKy-01.png)](https://vimeo.com/326114716 "Video Demo - Click to Watch!") 
+[![Video Demo](https://kennbroorg.gitlab.io/ikyweb/assets/img/Giba.gif)](https://vimeo.com/347085110 "Video Demo - Click to Watch!") 
 
-[Video Demo](https://vimeo.com/326114716 "Video Demo - Click to Watch!")
-
-## Project - Previous version
-We want to warn you that we have changed the Frontend from AngularJS to Angular 7. For this reason we left the project with AngularJS as Frontend in the iKy-v1 branch.
-
-The reason of changing the Frontend was to update the technology and get an easier way of installation.
+[Video Demo](https://vimeo.com/347085110 "Video Demo - Click to Watch!")
 
 ## Installation
 ### Clone repository
@@ -117,9 +113,26 @@ Open the browser in this [url](http://127.0.0.1:4200)
 ### Config API Keys
 Once the application is loaded in the browser, you should go to the Api Keys option and load the values of the APIs that are needed.
 
-- Fullcontact: Generate the APIs from [here](https://support.fullcontact.com/hc/en-us/articles/115003415888-Getting-Started-FullContact-v2-APIs)
+- Fullcontact: Generate the APIs from [here](https://dashboard.fullcontact.com/)
 - Twitter: Generate the APIs from [here](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
 - Linkedin: Only the user and password of your account must be loaded
+
+## Disclaimer
+
+Anyone who contributes or contributed to the project, including me, is not responsible for the use of the tool (Neither the legal use nor the illegal use, nor the "other" use).
+
+Keep in mind that this software was initially written for a joke, then for educational purposes (to educate ourselves), and now the goal is to collaborate with the community making quality free software, and while the quality is not excellent (sometimes not even good) we strive to pursue excellence.
+
+Consider that all the information collected is free and available online, the tool only tries to discover, collect and display it.
+Many times the tool cannot even achieve its goal of discovery and collection. Please load the necessary APIs before remembering my mother.
+If even with the APIs it doesn't show "nice" things that you expect to see, try other e-mails before you remember my mother.
+If you still do not see the "nice" things you expect to see, you can create an issue, contact us by e-mail or by any of the RRSS, but keep in mind that my mother is neither the creator nor Contribute to the project.
+
+We do not refund your money if you are not satisfied.
+I hope you enjoy using the tool as much as we enjoy doing it. The effort was and is enormous (Time, knowledge, coding, tests, reviews, etc.) but we would do it again.
+Do not use the tool if you cannot read the instructions and / or this disclaimer clearly.
+
+By the way, for those who insist on remembering my mother, she died many years ago but I love her as if she were right here.
 
 [readmees]: README.es.md
 [readmeen]: README.md

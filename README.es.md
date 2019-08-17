@@ -8,7 +8,7 @@
 
 <div align="center">
     <img alt="Redis" src="https://img.shields.io/badge/storage-redis-red.svg">
-    <img alt="Python" src="https://img.shields.io/badge/python-2.7-informational.svg">
+    <img alt="Python" src="https://img.shields.io/badge/python-3.7-informational.svg">
     <img alt="Celery" src="https://img.shields.io/badge/multiprocessing-celery-green.svg">
     <img alt="Flask" src="https://img.shields.io/badge/interface-flask-yellowgreen.svg">
 </div>
@@ -25,6 +25,7 @@
     <img alt="github" src="https://img.shields.io/badge/module-github-blue.svg">
     <img alt="keybase" src="https://img.shields.io/badge/module-keybase-blue.svg">
     <img alt="ghostproject" src="https://img.shields.io/badge/module-ghostproject-red.svg">
+    <img alt="emailrep.io" src="https://img.shields.io/badge/module-emailrep.io-blue.svg">
     <img alt="haveibeenpwned" src="https://img.shields.io/badge/module-haveibeenpwned-blue.svg">
 </div>
 
@@ -52,15 +53,9 @@ El proyecto iKy es una herramienta que colecta información a partir de una dire
 
 Visite el Gitlab Page del [Projecto](https://kennbroorg.gitlab.io/ikyweb/)
 
-[![Video Demo](https://kennbroorg.gitlab.io/ikyweb/assets/img/iKy-01.png)](https://vimeo.com/326114716 "Video Demo - Click to Watch!") 
+[![Video Demo](https://kennbroorg.gitlab.io/ikyweb/assets/img/Giba.gif)](https://vimeo.com/347085110 "Video Demo - Click to Watch!") 
 
-[Video Demo](https://vimeo.com/326114716 "Video Demo - Click to Watch!")
-
-## Proyecto - Versión anterior
-
-Primero que nada queremos aclarar que hemos cambiado el Frontend de AngularJS a Angular 7. Por esta razón hemos dejado al proyecto con AngularJS como Frontend en la rama iKy-v1.
-
-El motivo del cambio de Frontend fue actualizar la tecnología y obtener una forma más fácil de instalación.
+[Video Demo](https://vimeo.com/347085110 "Video Demo - Click to Watch!")
 
 ## Instalación
 
@@ -132,9 +127,28 @@ Abrir el browser en esta [url](http://127.0.0.1:4200)
 ### Config API Keys
 Una vez que la aplicación esté cargada en el browser, deberá ir a la opción Api Keys y llenar los valores de las APIs que se necesitan.
 
-- Fullcontact : Generar las APIs desde [aquí](https://support.fullcontact.com/hc/en-us/articles/115003415888-Getting-Started-FullContact-v2-APIs)
+- Fullcontact : Generar las APIs desde [aquí](https://dashboard.fullcontact.com/)
 - Twitter : Generar las APIs desde [aquí](https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html)
 - Linkedin : Solo se debe cargar el usuario y contraseña de su cuenta 
+
+## Aviso Legal
+
+Todo aquel que contribuya o haya contribuído con el proyecto, incluyendome, no somos responsables por el uso de la herramienta (Ni el uso legal ni el uso ilegal, ni el "otro" uso). 
+
+Tenga en cuenta que este software fue inicialmente escrito para una broma, luego con fines educativos (para educarnos a nosotros mismos), y ahora el objetivo es colaborar con la comunidad haciendo software libre de calidad, y si bien la calidad no es excelente (a veces ni siquiera buena) nos esforzamos en perseguir la excelencia.
+
+Considere que toda la informacion recolectada está libre y disponible por internet, la herramienta solo intenta descubrirla, recolectarla y mostrarla.
+Muchas veces la herramienta ni siquiera puede lograr su objetivo de descubrimiento y recolección. Por favor, cargue las APIs necesarias antes de acordarse de mi madre.
+Si aún con las APIs no muestra cosas "lindas" que usted espera ver, pruebe con otros e-mails antes de acordarse de mi madre.
+Si aún probando con otros e-mails no ve las cosas "lindas" que usted espera ver, puede crear un issue, contactarnos por e-mail o por cualquiera de las RRSS, pero tenga en cuenta que mi madre no es ni la creadora ni contribuye con el proyecto.
+
+No reembolsamos su dinero si no está satisfecho.
+
+Espero que disfrute la utilizacion de la herramienta tanto como nosotros disfrutamos hacerla. El esfuerzo fue y es enorme (Tiempo, conocimiento, codificacion, pruebas, revisiones, etc) pero lo haríamos de nuevo.
+
+No use la herramienta si no puede leer claramente las instrucciones y/o el presente Aviso Legal.
+
+Por cierto, para quienes insistan en acordarse de mi madre, ella murió hace muchos años pero la amo como si estuviera aquí mismo.
 
 [readmees]: README.es.md
 [readmeen]: README.md
